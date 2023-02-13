@@ -9,8 +9,8 @@ import UIKit
 
 public class PinCodeViewController: UIViewController {
     
-    public static let storyboardPnCode = UIStoryboard(name: "PinCode", bundle: nil).instantiateViewController(withIdentifier: "PinCodeViewController") as? PinCodeViewController
-    
+    public static let storyboardPnCode = UIStoryboard(name: "PinCode", bundle: Bundle.module).instantiateInitialViewController()!
+
 
     public override func viewDidLoad() {
         super.viewDidLoad()
