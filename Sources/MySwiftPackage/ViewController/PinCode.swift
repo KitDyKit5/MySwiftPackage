@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class PinCodeViewController: UIViewController {
+public class PinCode: UIViewController {
     
     public static let storyboardPnCode = UIStoryboard(name: "PinCode", bundle: Bundle.module).instantiateInitialViewController()!
 
