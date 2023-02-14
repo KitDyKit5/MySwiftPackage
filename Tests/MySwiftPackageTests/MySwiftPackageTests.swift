@@ -6,6 +6,6 @@ final class MySwiftPackageTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(MySwiftPackage().text, "Hello, World!")
+        XCTAssertEqual(MySwiftPackage.text, "Hello, World!")
     }
 }
