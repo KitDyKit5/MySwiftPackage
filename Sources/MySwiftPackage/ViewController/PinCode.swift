@@ -11,7 +11,8 @@ public class PinCode: UIViewController {
     
 //    public static let storyboardPnCode = UIStoryboard(name: "PinCode", bundle: Bundle.module).instantiateInitialViewController()!
     
-    public static let storyboardPnCode = UIStoryboard(name: "PinCode", bundle: nil)
+    public static let storyboardPnCode = UIStoryboard(name: "PinCode", bundle: nil).instantiateInitialViewController() as? PinCode
+    
     public static let myView = storyboardPnCode.instantiateInitialViewController() as? PinCode
 
 
