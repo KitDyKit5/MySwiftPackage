@@ -253,8 +253,8 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MzT-kY-cHh">
                                                 <rect key="frame" x="209.66666666666666" y="0.0" width="104.66666666666666" height="147.33333333333334"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="delete_pin" translatesAutoresizingMaskIntoConstraints="NO" id="9fP-uh-tO7">
-                                                        <rect key="frame" x="40.333333333333314" y="61.666666666666742" width="24" height="24"/>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9fP-uh-tO7">
+                                                        <rect key="frame" x="40.333333333333314" y="62.666666666666735" width="24" height="22.666666666666664"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="24" id="2Kd-0m-2dE"/>
                                                             <constraint firstAttribute="height" constant="24" id="ZS6-Zw-b3f"/>
@@ -295,7 +295,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="delete_pin" width="24" height="24"/>
+        <image name="pencil.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
